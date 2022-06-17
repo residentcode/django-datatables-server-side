@@ -30,5 +30,7 @@
   <p>Testing the table with data from JSON file </p>
     http://127.0.0.1:8000/file/
 
+
+<h4>Backend:</h4>
 <p>Django 4.0.5, it should works on < 4.0.5 </p>
 <p>Python 3.9</p>
