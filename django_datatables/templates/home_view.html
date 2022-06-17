@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}DataTables{% endblock %}
+{% block style %}
+    <link rel="stylesheet" type="text/css"
+          href="https://cdn.datatables.net/v/bs5/jq-3.6.0/dt-1.12.1/r-2.3.0/datatables.min.css"/>
+{% endblock %}
+{% block content %}
+    <div class="container-sm text-center">
+        <h1 class="py-3 my-4">
+            Django Datatables bootstrap 5
+        </h1>
+    </div>
+    <div class="container-sm">
+        <div class="row">
+            <div class="col-md-10 m-auto">
+                <table id="table-orders" class="table table-hover table-compact table-striped table-bordered nowrap w-100">
+                    <thead>
+                    <tr>
+                        <th>First name</th>
+                        <th>Last name</th>
+                        <th>Email</th>
+                        <th>Gender</th>
+                        <th>City</th>
+
+                    </tr>
+                    </thead>
+                    <tfoot>
+                    <tr>
+                        <th>First name</th>
+                        <th>Last name</th>
+                        <th>Email</th>
+                        <th>Gender</th>
+                        <th>City</th>
+
+                    </tr>
+                    </tfoot>
+                    {% csrf_token %}
+                </table>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+
+
+{% block scripts %}
+
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs5/jq-3.6.0/dt-1.12.1/r-2.3.0/datatables.min.js"></script>
+    <script src="{% static 'datatables/js/table_ajax.js' %}"></script>
+{% endblock %}
