@@ -22,7 +22,7 @@
   <pre>python3 -m venv enva</pre>
   <pre>enva\Scripts\activate</pre>
 <p>3- install requirements</p>
-  <pre>pip install -r requirements.txt </pre>
+  <pre>pip install -r requirements.txt</pre>
  
  <p>Database already included Username & Password admin</p>
  <p>Testing the table with data from databese </p>
