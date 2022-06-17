@@ -19,10 +19,10 @@
 <h3>Installation & testing</h3>
 <p>1- Download the project and unzip the files</p>
 <p>2- Create Virtual envirement & activate</p>
-  <pre>python3 -m venv enva</pre>
-  <pre>enva\Scripts\activate</pre>
+    <pre>python3 -m venv enva</pre>
+    <pre>enva\Scripts\activate</pre>
 <p>3- install requirements</p>
-  <pre>pip install -r requirements.txt</pre>
+    <pre>pip install -r requirements.txt</pre>
  
  <p>Database already included Username & Password admin</p>
  <p>Testing the table with data from databese </p>
